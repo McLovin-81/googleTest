@@ -1,6 +1,6 @@
 GOOGLE_TEST_LIB = gtest
 
-CXX_FLAGS = -c -Wall -I/opt/homebrew/Cellar/googletest/1.13.0/include -std=c++14
+CXX_FLAGS = -c -Wall -I/opt/homebrew/Cellar/googletest/1.13.0/include -std=c++20
 
 LD_FLAGS = -L/opt/homebrew/Cellar/googletest/1.13.0/lib -lgtest -lpthread
 
